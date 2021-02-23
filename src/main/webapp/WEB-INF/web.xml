@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <description></description>
+        <display-name>LoginServlet</display-name>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.cookies.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>ProfileServlet</display-name>
+        <servlet-name>ProfileServlet</servlet-name>
+        <servlet-class>com.cookies.ProfileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProfileServlet</servlet-name>
+        <url-pattern>/ProfileServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>LogoutServlet</display-name>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.cookies.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>HiddenForm1</servlet-name>
+        <servlet-class>com.hiddenformfield.HidenFormServlet1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HiddenForm1</servlet-name>
+        <url-pattern>/HiddenForm1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HiddenForm2</servlet-name>
+        <servlet-class>com.hiddenformfield.HiddenFormServlet2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HiddenForm2</servlet-name>
+        <url-pattern>/HiddenForm2</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UrlRewrite1</servlet-name>
+        <servlet-class>com.urlrewrite.UrlRewrite1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UrlRewrite1</servlet-name>
+        <url-pattern>/UrlRewrite1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UrlRewrite2</servlet-name>
+        <servlet-class>com.urlrewrite.UrlRewtrite2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UrlRewrite2</servlet-name>
+        <url-pattern>/UrlRewrite2</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>FirstSession</display-name>
+        <servlet-name>FirstSession</servlet-name>
+        <servlet-class>com.httpsession.FirstSession</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FirstSession</servlet-name>
+        <url-pattern>/FirstSession</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>ThirdSession</display-name>
+        <servlet-name>ThirdSession</servlet-name>
+        <servlet-class>com.httpsession.ThirdSession</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ThirdSession</servlet-name>
+        <url-pattern>/ThirdSession</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>SecondSession</display-name>
+        <servlet-name>SecondSession</servlet-name>
+        <servlet-class>com.httpsession.SecondSession</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SecondSession</servlet-name>
+        <url-pattern>/SecondSession</url-pattern>
+    </servlet-mapping>
+</web-app>
